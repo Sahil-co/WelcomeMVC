@@ -34,6 +34,7 @@ public class MovieControllers {
 	@Autowired
 	MovieService movieService;
 
+	//used logger for output
 	private static final Logger logger = LoggerFactory.getLogger(MovieControllers.class);
 
 	@PostMapping(value="/add", consumes=MediaType.APPLICATION_JSON_VALUE)
